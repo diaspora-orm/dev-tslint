@@ -1,0 +1,20 @@
+{
+	"name": "@diaspora/dev-tslint",
+	"version": "1.0.0",
+	"description": "🔨 FOR DEVELOPMENT PURPOSE ONLY! The tslint rules used by @diaspora-orm",
+	"main": "tslint.json",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/diaspora-orm/dev-tslint.git"
+	},
+	"author": {
+		"name": "Gerkin",
+		"email": "nihilivin@gmail.com",
+		"url": "https://www.gerkindevelopment.net"
+	},
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/diaspora-orm/dev-tslint/issues"
+	},
+	"homepage": "https://github.com/diaspora-orm/dev-tslint#readme"
+}
