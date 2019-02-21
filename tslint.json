@@ -8,6 +8,9 @@
         "array-type": {
             "options": "array-simple"
         },
+        "arrow-parens": {
+            "options": ["ban-single-arg-parens"]
+        },
         "arrow-return-shorthand": {
             "options": ["multiline"]
         },
@@ -23,6 +26,9 @@
         },
         "linebreak-style": {
             "options": ["LF"]
+        },
+        "max-line-length": {
+            "options": [200]
         },
         "member-access": {
             "options": ["check-accessor", "check-constructor", "check-parameter-property"]
@@ -49,6 +55,9 @@
         "space-within-parens": {
             "options": [1]
         },
-        "type-literal-delimiter": true
+        "type-literal-delimiter": true,
+        "variable-name": {
+            "options": ["ban-keywords", "check-format", "allow-pascal-case", "allow-leading-underscore"]
+        }
     }
 }
