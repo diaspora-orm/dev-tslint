@@ -1,7 +1,9 @@
 @diaspora/dev-tslint
 ===
 
-🔨 FOR DEVELOPMENT PURPOSE ONLY! The tslint rules used by @diaspora-orm
+**🔨 FOR DEVELOPMENT PURPOSE ONLY!**
+
+The tslint rules used by @diaspora-orm
 ---
 
 This package contains only the [tslint](https://palantir.github.io/tslint/) rules to use for packages of the organization.

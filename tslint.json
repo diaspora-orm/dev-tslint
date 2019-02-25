@@ -33,6 +33,7 @@
         "member-access": {
             "options": ["check-accessor", "check-constructor", "check-parameter-property"]
         },
+        "member-ordering": false,
         "no-boolean-literal-compare": true,
         "no-duplicate-variable": {
             "options": ["check-parameters"]
