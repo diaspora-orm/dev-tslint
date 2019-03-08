@@ -1,6 +1,9 @@
 {
     "extends": "tslint:recommended",
     "defaultSeverity": "error",
+    "rulesDirectory": [
+        "node_modules/tslint-eslint-rules/dist/rules"
+    ],
     "rules": {
         "align": {
             "options": ["arguments", "elements", "members", "parameters", "statements"]
@@ -48,6 +51,7 @@
         "no-return-await": true,
         "no-unnecessary-qualifier": true,
         "no-unused-variable": true,
+        "object-curly-spacing": [true, "always", { "objectsInObjects": false }],
         "prefer-readonly": true,
         "prefer-template": {
             "options": ["allow-single-concat"]
