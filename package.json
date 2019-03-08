@@ -1,6 +1,6 @@
 {
 	"name": "@diaspora/dev-tslint",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"description": "🔨 FOR DEVELOPMENT PURPOSE ONLY! The tslint rules used by @diaspora-orm",
 	"main": "tslint.json",
 	"repository": {
@@ -19,9 +19,9 @@
 	"homepage": "https://github.com/diaspora-orm/dev-tslint#readme",
 	"devDependencies": {
 		"tslint-eslint-rules": "^5.4.0"
-    },
-    "peerDependencies": {
-        "typescript": "3.3.3333",
-        "tslint": "5.13.1"
-    }
+	},
+	"peerDependencies": {
+		"typescript": "3.3.3333",
+		"tslint": "5.13.1"
+	}
 }
