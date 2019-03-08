@@ -43,9 +43,11 @@
         "no-inferred-empty-object-type": true,
         "no-invalid-template-strings": true,
         "no-irregular-whitespace": true,
+        "no-namespace": false,
         "no-redundant-jsdoc": true,
         "no-return-await": true,
         "no-unnecessary-qualifier": true,
+        "no-unused-variable": true,
         "prefer-readonly": true,
         "prefer-template": {
             "options": ["allow-single-concat"]
