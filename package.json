@@ -1,6 +1,6 @@
 {
 	"name": "@diaspora/dev-tslint",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "🔨 FOR DEVELOPMENT PURPOSE ONLY! The tslint rules used by @diaspora-orm",
 	"main": "tslint.json",
 	"repository": {
