@@ -17,7 +17,7 @@
 		"url": "https://github.com/diaspora-orm/dev-tslint/issues"
 	},
 	"homepage": "https://github.com/diaspora-orm/dev-tslint#readme",
-	"devDependencies": {
+	"dependencies": {
 		"tslint-eslint-rules": "^5.4.0"
 	},
 	"peerDependencies": {
