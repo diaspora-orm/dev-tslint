@@ -1,8 +1,10 @@
-{
+const {join, dirname} = require('path');
+
+module.exports = {
     "extends": "tslint:recommended",
     "defaultSeverity": "error",
     "rulesDirectory": [
-        "node_modules/tslint-eslint-rules/dist/rules"
+        join(dirname(require.resolve("tslint-eslint-rules")), "dist/rules"),
     ],
     "rules": {
         "align": {

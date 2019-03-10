@@ -2,7 +2,7 @@
 	"name": "@diaspora/dev-tslint",
 	"version": "1.1.1",
 	"description": "🔨 FOR DEVELOPMENT PURPOSE ONLY! The tslint rules used by @diaspora-orm",
-	"main": "tslint.json",
+	"main": "./tslint.js",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/diaspora-orm/dev-tslint.git"
@@ -17,11 +17,9 @@
 		"url": "https://github.com/diaspora-orm/dev-tslint/issues"
 	},
 	"homepage": "https://github.com/diaspora-orm/dev-tslint#readme",
-	"dependencies": {
-		"tslint-eslint-rules": "^5.4.0"
-	},
 	"peerDependencies": {
-		"typescript": "3.3.3333",
-		"tslint": "5.13.1"
+		"tslint-eslint-rules": "^5.0.0",
+		"typescript": "^3.0.0",
+		"tslint": "^5.0.0"
 	}
 }
